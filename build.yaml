@@ -1,0 +1,15 @@
+builders:
+ kernel:
+   import: "package:widget_template_language/builders.dart"
+   builder_factories:
+     - "widgetTemplateBuilder"
+   build_extensions:
+     ".html":
+       - ".dart"
+   required_inputs: [".html"]
+   build_to: cache
+   auto_apply: root_package
+   defaults:
+     generate_for:
+       include:
+         - lib/**

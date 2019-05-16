@@ -1,0 +1,3 @@
+- [] Remove support for `()`, `[]` and `[()]`.
+- [] Remove support for pipes and all expression parsing.
+- [] Remove support for arbitrary directives besides `if` and `for`.
